@@ -5,7 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'rails-api', '~> 0.4.0'
+
 gem 'active_model_serializers', '~> 0.8.3' # NOTE: not the 0.9
 gem 'devise'
 gem 'sdoc', '~> 0.4.0', group: :doc
